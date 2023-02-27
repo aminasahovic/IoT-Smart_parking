@@ -1,0 +1,80 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Parking</title>
+</head>
+
+<body onLoad="onload()">
+    <div class="wrapper">
+        <div class="up">
+            <div class="header">
+                <div class="info">
+                    <div class="info_left">
+                        <h2>Parking No.1</h2>
+                    </div>
+                    <div class="info_right">
+                        <h3>2 KM / h</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="infoSection">
+            <div class="container">
+                <button id="pleace" onclick="onPleace(this)">Rezervacija</button>
+                <button id="info" onclick="onInfo(this)">Info</button>
+                <button id="options" onclick="onOptions(this)">Opcije</button>
+                <br>
+                <div class="info_div">
+                    <div class="info_button">
+                        <div class="card_info">
+                            <p class="entry_p">Vrijeme ulaska:</p>
+                            <p class="time_p" id="timeEntry">15:30 h</p>
+                        </div>
+                        <div class="card_info">
+                            <p class="entry_p">Vrijeme izlaska:</p>
+                            <p class="time_p"  id="timeExit">15:30 h</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pleace_button">
+                    <p class="rezervacije">Broj slobodnih mjesta na parkingu: </p><p class="rezervacije">1</p>
+                    <p id="brojMjesta"></p>
+                    <button id="parkingMjesto" onclick="onReservisi()"><div>Parking 1
+                        <p id="status">Slobodno</p>
+                    </div></button>
+                    <button class="rezervisani" disabled><div>Parking 2
+                        <p>Zuzeto</p>
+                    </div></button>
+                    <button class="rezervisani" disabled><div>Parking 3
+                        <p>Zuzeto</p>
+                    </div></button>
+                    <button class="rezervisani" disabled><div>Parking 4
+                        <p>Zuzeto</p>
+                    </div></button>
+                    <button class="rezervisani" disabled><div>Parking 5
+                        <p>Zuzeto</p>
+                    </div></button>
+                    <button class="rezervisani" disabled><div>Parking 1
+                        <p>Slobodno</p>
+                    </div></button>
+
+
+                </div>
+                <div class="options_button">
+                    <button id="rampa" onclick="rampa()">Otvori rampu</button>
+                </div>
+                <div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-analytics.js"></script>
+    <script src="./code.js"></script>
+</body>
+
+</html>

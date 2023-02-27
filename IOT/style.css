@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  color: #414141;
+}
+
+body,
+html,
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.up {
+  width: 100%;
+  height: 40%;
+}
+
+.header {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/fitsize.png");
+  background-color: #F6D139;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+h2 {
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+}
+
+.info_left {
+  width: 50%;
+}
+
+.info_right {
+  margin-top: 5px;
+  padding-left: 6rem;
+  width: 50%;
+  font-weight: lighter;
+}
+
+.infoSection {
+  background-color: #2D2D2D;
+  width: 100%;
+  height: 60%;
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  padding-top: 1.5rem;
+}
+
+button {
+  width: 30%;
+  height: 8%;
+  border: none;
+  background-color: #2D2D2D;
+  color: whitesmoke;
+  font-weight: bold;
+  margin: 0.1rem;
+  border-radius: 20px;
+}
+
+.info_button {
+  padding-top: 2rem;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.card_info {
+  width: 45%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: #424242;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.entry_p {
+  color: #F6D139;
+
+}
+
+.time_p {
+  margin-top: 0.5rem;
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke
+}
+
+#info {
+  background-color: #F6D139;
+  color: #424242;
+}
+
+.rezervacije {
+  color: whitesmoke;
+  display: inline;
+}
+
+.pleace_button {
+  padding-top: 1rem;
+}
+
+#parkingMjesto {
+  margin-top: 30px;
+  background-color: rgb(154, 135, 135);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.rezervisani {
+  border: 1px solid whitesmoke;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+
+}
+
+.options_button {
+  text-align: center;
+  height: 70%;
+
+  margin-top: 30%;
+}
+
+#rampa {
+  border: 1px solid whitesmoke;
+  width: 300px;
+  height: 50px;
+  margin: 1rem
+  
+}
